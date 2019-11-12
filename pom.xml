@@ -5,7 +5,7 @@
 
     <groupId>io.bitexpress.openapi</groupId>
     <artifactId>cap-openapi</artifactId>
-    <version>0.4</version>
+    <version>0.4.1-SNAPSHOT</version>
 
     <name>cap openapi</name>
     <description>cap openapi</description>
@@ -13,7 +13,7 @@
         <connection>scm:git:git@github.com:DistributedBanking/cap-openapi.git</connection>
         <developerConnection>scm:git:git@github.com:DistributedBanking/cap-openapi.git</developerConnection>
         <url>https://github.com/DistributedBanking/cap-openapi</url>
-        <tag>cap-openapi-0.4</tag>
+        <tag>HEAD</tag>
     </scm>
     <developers>
         <developer>
