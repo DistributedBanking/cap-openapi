@@ -17,9 +17,19 @@ public class CashierAcquireOrder extends AcquireOrder {
 	@NotNull
 	private Date expiredTime;
 
+	private boolean supportOtc;
+
 	private String currency;
 
 	private BigDecimal fiatAmount;
+
+	public boolean isSupportOtc() {
+		return supportOtc;
+	}
+
+	public void setSupportOtc(boolean supportOtc) {
+		this.supportOtc = supportOtc;
+	}
 
 	public String getCurrency() {
 		return currency;
@@ -46,7 +56,7 @@ public class CashierAcquireOrder extends AcquireOrder {
 	}
 
 	/**
-	 * @see java.lang.Object#toString()
+	 * @see Object#toString()
 	 */
 	public String toString() {
 		return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE).appendSuper(super.toString())
